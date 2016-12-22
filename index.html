@@ -533,7 +533,11 @@
 
 			</div>
 	    </div>
-		<div class="map" id="map"></div>
+		<div id="map-wrapper">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.7523825911258!2d32.5696175!3d0.3294039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xddc6fcfbe10b089d!2sMakerere+University!5e0!3m2!1sen!2sug!4v1482408125008" width="1800" height="400"  frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+		</div>
 	</section><!--/ Map end here -->	
 	
 
@@ -624,21 +628,7 @@
 	
 	<script type="text/javascript">
  
-    $(function () {
-       $('#map')
-         .gmap3({
-           address:"Makerere University Uganda",
-           zoom: 17,
-           mapTypeId : google.maps.MapTypeId.ROADMAP,
-           scrollwheel: false
-         })
-         .marker(function (map) {
-           return {
-             position: map.getCenter(),
-             icon: 'http://themewinter.com/html/marker.png'
-           };
-         });
-     });
+   
  
 </script>
 
