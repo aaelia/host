@@ -3397,6 +3397,8 @@ a.close-styler{
 		.event-list > li > .info {
 			background-color: rgb(245, 245, 245);
 			overflow: hidden;
+			min-height: 100px;
+                        width: 260px;
 		}
 		.event-list > li > time,
 		.event-list > li > img {
