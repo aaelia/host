@@ -3415,8 +3415,8 @@ a.close-styler{
 		.event-list > li > .info > .title, 
 		.event-list > li > .info > .desc {
 			padding: 0px 10px;
-			min-height: 100px;
-                         width: 260px;
+			min-height: 50px;
+                         
 		}
 		.event-list > li > .info > ul {
 			position: absolute;
